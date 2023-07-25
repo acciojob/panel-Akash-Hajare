@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+.main{
+	display:flex;
+	height:400px;
+}
+.div-img{
+	box-sizing:border:box;
+	padding:20px;
+	
+}
+img{
+	height:350px;
+	width:30px;
+	border-radius:30px;
+	object-fit:cover;
+}
+img:active{
+	width:300px;
+	transition:1s;
+}
+h3{
+	position:absolute;
+}
